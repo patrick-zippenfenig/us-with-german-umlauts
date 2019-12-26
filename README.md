@@ -18,14 +18,14 @@ curl -sL https://api.github.com/repos/patrick-zippenfenig/us-with-german-umlauts
 
 2. Open `System Preferences` -> `Keyboard` -> `Input Sources`
 3. Click `+` and add `U.S. with German Umlauts`
-4. In the menu bar (top right) select `U.S with German Umlauts`
+4. In the menu bar (top right) select `U.S. with German Umlauts`
 
 # Uninstall #
 
 1. Delete directory `~/Library/Keyboard Layouts/US-with-German-Umlauts.bundle`
 
 # Credits #
-Generated with [Ukelele 3.2.7](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele) and tested on macOS 10.13 High Sierra and 10.14 Mojave.
+Generated with [Ukelele 3.2.7](http://software.sil.org/ukelele/) and tested on macOS 10.13 High Sierra, 10.14 Mojave and 10.15 Catalina.
 
 # License #
 MIT License
