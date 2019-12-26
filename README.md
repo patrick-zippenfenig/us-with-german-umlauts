@@ -1,5 +1,5 @@
 # Mac U.S. keyboard layout with German Umlauts
-Modified U.S. Keyboard layout with German Umlauts with `option` key:
+This layout is designed for German speakers using U.S. English mac keyboards. The layout is a modified U.S. English keyboard layout with German Umlauts using `⌥ option` key bindings:
 * `option` + `a` => `ä`
 * `option` + `o` => `ö`
 * `option` + `u` => `ü`
@@ -10,19 +10,24 @@ Modified U.S. Keyboard layout with German Umlauts with `option` key:
 * `option` + `shift` + `s` => `ẞ`
 
 # Installation #
-1. To install the keyboard layout open `Terminal` on your mac and execute the command below.
+1. To install the keyboard layout open `Terminal` on your mac and execute the command below. 
 
-```
-curl -sL https://api.github.com/repos/patrick-zippenfenig/us-with-german-umlauts/tarball/master | tar xz --strip=1 -C ~/Library/Keyboard\ Layouts/
+```bash
+curl -sL https://api.github.com/repos/patrick-zippenfenig/us-with-german-umlauts/tarball/master | sudo tar xz --exclude=README.md --strip=1 -C /Library/Keyboard\ Layouts/
 ```
 
-2. Open `System Preferences` -> `Keyboard` -> `Input Sources`
-3. Click `+` and add `U.S. with German Umlauts`
-4. In the menu bar (top right) select `U.S. with German Umlauts`
+2. Enter your password. This is required because the keyboard layout is installed for all users on your mac.
+3. Open `System Preferences` -> `Keyboard` -> `Input Sources`
+4. Click `+` and add `U.S. with German Umlauts` (Last category `Others`)
+5. Check `☑ Show Input menu in menu bar`
+6. In the menu bar (top right) select `U.S. with German Umlauts`
 
 # Uninstall #
+1. Delete directory `/Library/Keyboard\ Layouts/US-with-German-Umlauts.bundle` with
 
-1. Delete directory `~/Library/Keyboard Layouts/US-with-German-Umlauts.bundle`
+```bash
+sudo rm -R /Library/Keyboard\ Layouts/US-with-German-Umlauts.bundle
+```
 
 # Credits #
 Generated with [Ukelele 3.2.7](http://software.sil.org/ukelele/) and tested on macOS 10.13 High Sierra, 10.14 Mojave and 10.15 Catalina.
