@@ -30,7 +30,7 @@ sudo rm -R /Library/Keyboard\ Layouts/US-with-German-Umlauts.bundle
 ```
 
 # Credits #
-Generated with [Ukelele 3.2.7](http://software.sil.org/ukelele/) and tested on macOS 10.13 High Sierra, 10.14 Mojave and 10.15 Catalina.
+Generated with [Ukelele 3.2.7](http://software.sil.org/ukelele/) and tested on macOS 10.13 High Sierra, 10.14 Mojave, 10.15 Catalina and 11 Big Sur.
 
 # License #
 MIT License
