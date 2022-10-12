@@ -18,7 +18,7 @@ curl -sL https://api.github.com/repos/patrick-zippenfenig/us-with-german-umlauts
 
 2. Enter your password. This is required because the keyboard layout is installed for all users on your mac.
 3. Open `System Preferences` -> `Keyboard` -> `Input Sources`
-4. Click `+` and add `U.S. with German Umlauts` (Last category `Others`)
+4. Click `+` and add `U.S. with German Umlauts` (category `English`)
 5. Check `☑ Show Input menu in menu bar`
 6. In the menu bar (top right) select `U.S. with German Umlauts`
 
